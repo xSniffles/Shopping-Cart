@@ -1,0 +1,9 @@
+﻿@model IEnumerable<ShoppingCartApp.Models.Platform>
+        
+<div id="centeredmenu">
+   <ul>
+    @foreach (var genre in Model)
+    { 
+       <li> @Html.ActionLink(genre.Name, "Browse", "Store", new { Genre = genre.Name }, null) </li>
+    }
+</ul></div>
