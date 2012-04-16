@@ -1,0 +1,7 @@
+C:\Users\Gil\Desktop\ShoppingCartApplication\ShoppingCartApplication\bin\ShoppingCartApplication.dll
+C:\Users\Gil\Desktop\ShoppingCartApplication\ShoppingCartApplication\bin\ShoppingCartApplication.pdb
+C:\Users\Gil\Desktop\ShoppingCartApplication\ShoppingCartApplication\bin\EntityFramework.dll
+C:\Users\Gil\Desktop\ShoppingCartApplication\ShoppingCartApplication\bin\EntityFramework.xml
+C:\Users\Gil\Desktop\ShoppingCartApplication\ShoppingCartApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gil\Desktop\ShoppingCartApplication\ShoppingCartApplication\obj\Debug\ShoppingCartApplication.dll
+C:\Users\Gil\Desktop\ShoppingCartApplication\ShoppingCartApplication\obj\Debug\ShoppingCartApplication.pdb

@@ -1,0 +1,38 @@
+﻿@model ShoppingCartApplication.Models.Game
+
+@{
+    ViewBag.Title =  Model.Title;
+}
+
+<p>
+    <img alt="@Model.Title" src="@Model.Image" />
+</p>
+
+<div>
+   
+    <p>
+        <em>Title:</em>
+        @Model.Title
+    </p>
+    
+     <p>
+        <em>Genre:</em>
+        @Model.Platform
+    </p>
+     <p>
+        <em>Developer:</em>
+        @Model.Developer
+    </p>
+     <p>
+        <em>Publisher:</em>
+        @Model.Publisher
+    </p>
+    <p>
+        <em>Price:</em>
+        @String.Format("{0:F}", Model.Price)
+    </p>
+    <p class="button">
+        @Html.ActionLink("Add to cart", "AddToCart", 
+        "ShoppingCart", new { id = Model.GameID }, "")
+    </p>
+</div>

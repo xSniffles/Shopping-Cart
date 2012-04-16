@@ -1,0 +1,9 @@
+﻿@model IEnumerable<ShoppingCartApplication.Models.Platform>
+        
+<div>
+   <ul>
+    @foreach (var platform in Model)
+    { 
+       <li> @Html.ActionLink(platform.Name, "Browse","Home", new { Platform = platform.Name }, null) </li>
+    }
+</ul></div>

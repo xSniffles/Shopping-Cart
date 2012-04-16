@@ -1,0 +1,16 @@
+﻿@model ShoppingCartApplication.Models.Platform
+@{
+    ViewBag.Title = "Browse Games";
+}
+    <h3>
+        <em>@Model.Name</em> Games</h3>
+    <ul>
+        @foreach (var game in Model.Games)
+        {
+            <li><a href="@Url.Action("Details", new { id = game.GameID })">
+            <img alt="@game.Title" src="@game.Image"/>
+                <span>@game.Title</span>
+                  
+            </a></li>
+        }
+    </ul>
